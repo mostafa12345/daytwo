@@ -1,0 +1,8 @@
+terraform {
+  backend "s3" {
+    bucket         = "mostafa123456468123desd"
+    key            = "terraform.tfstate" 
+    region         = "us-east-1"
+  
+  }
+}
